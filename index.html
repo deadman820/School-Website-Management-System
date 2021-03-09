@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<head>
+    <title>School website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+    *{
+    padding:0;
+    margin:0;
+     box-sizing:border-box;
+}
+body{
+    background:white;
+    background-size:cover;
+    background-position: center;
+   
+    font-family: sans-serif;
+    
+}
+.menu-bar{
+    background:rgb(0,100,0);
+    text-align:left;
+    
+}
+.menu-bar ul{
+    display:inline-flex;
+    list-style:none;
+    color:#fff;
+    
+
+}
+.menu-bar ul li{
+    width:120px;
+    margin:15px;
+    padding:15px;
+    
+}
+.menu-bar ul li a{
+    text-decoration:none;
+    color:#fff;
+    
+}
+.active,.menu-bar ul li:hover{
+    background:#2bab0d;
+    border-radius:3px;
+    
+}
+.menu-bar .fa{
+    margin-right:8px;
+}
+.sub-menu-1{
+    display:none;
+}
+.menu-bar ul li:hover.sub-menu-1{
+    display:block;
+    position:absolute;
+    background:rgb(0,100,0);
+    margin-top:15px;
+    margin-left:-15px;
+    
+}
+.menu-bar ul li:hover.sub-menu-1 ul{
+    display:block;
+    margin:10px;
+}
+.menu-bar ul li:hover.sub-menu-1 ul li{
+    width:150px;
+    padding:10px;
+    border-bottom: 1px dotted #fff;
+    background:transparent;
+    border-radius:0;
+    text-align:left;
+    
+}
+.menu-bar ul li:hover.sub-menu-1 ul li:last-child{
+    border-bottom:none;
+}
+.menu-bar ul li:hover.sub-menu-1 ul li a:hover{
+    color:#b2ff00;
+}
+.sub-menu-2{
+    display:none;
+}
+.menu-bar ul li:hover.sub-menu-2{
+    display:block;
+    position:absolute;
+    background:rgb(0,100,0);
+    margin-top:15px;
+    margin-left:-15px;
+    
+}
+.menu-bar ul li:hover.sub-menu-2 ul{
+    display:block;
+    margin:10px;
+}
+.menu-bar ul li:hover.sub-menu-2 ul li{
+    width:150px;
+    padding:10px;
+    border-bottom: 1px dotted #fff;
+    background:transparent;
+    border-radius:0;
+    text-align:left;
+    
+}
+.menu-bar ul li:hover.sub-menu-2 ul li:last-child{
+    border-bottom:none;
+}
+.menu-bar ul li:hover.sub-menu-2 ul li a:hover{
+    color:#b2ff00;
+}
+.sub-menu-3{
+    display:none;
+}
+.menu-bar ul li:hover.sub-menu-3{
+    display:block;
+    position:absolute;
+    background:rgb(0,100,0);
+    margin-top:15px;
+    margin-left:-15px;
+    
+}
+.menu-bar ul li:hover.sub-menu-3 ul{
+    display:block;
+    margin:10px;
+}
+.menu-bar ul li:hover.sub-menu-3 ul li{
+    width:150px;
+    padding:10px;
+    border-bottom: 1px dotted #fff;
+    background:transparent;
+    border-radius:0;
+    text-align:left;
+    
+}
+.menu-bar ul li:hover.sub-menu-3 ul li:last-child{
+    border-bottom:none;
+}
+.menu-bar ul li:hover.sub-menu-3 ul li a:hover{
+    color:#b2ff00;
+}
+
+.sub-menu-4{
+    display:none;
+}
+.menu-bar ul li:hover.sub-menu-4{
+    display:block;
+    position:absolute;
+    background:rgb(0,100,0);
+    margin-top:15px;
+    margin-left:-15px;
+    
+}
+.menu-bar ul li:hover.sub-menu-4 ul{
+    display:block;
+    margin:10px;
+}
+.menu-bar ul li:hover.sub-menu-4 ul li{
+    width:150px;
+    padding:10px;
+    border-bottom: 1px dotted #fff;
+    background:transparent;
+    border-radius:0;
+    text-align:left;
+    
+}
+.menu-bar ul li:hover.sub-menu-4 ul li:last-child{
+    border-bottom:none;
+}
+.menu-bar ul li:hover.sub-menu-4 ul li a:hover{
+    color:#b2ff00;
+}
+.sub-menu-5{
+    display:none;
+}
+.menu-bar ul li:hover.sub-menu-5{
+    display:block;
+    position:absolute;
+    background:rgb(0,100,0);
+    margin-top:15px;
+    margin-left:-15px;
+    
+}
+.menu-bar ul li:hover.sub-menu-5 ul{
+    display:block;
+    margin:10px;
+}
+.menu-bar ul li:hover.sub-menu-5 ul li{
+    width:150px;
+    padding:10px;
+    border-bottom: 1px dotted #fff;
+    background:transparent;
+    border-radius:0;
+    text-align:left;
+    
+}
+.menu-bar ul li:hover.sub-menu-5 ul li:last-child{
+    border-bottom:none;
+}
+.menu-bar ul li:hover.sub-menu-5 ul li a:hover{
+    color:#b2ff00;
+}
+
+
+    </style>
+   <script type="text/javascript">
+
+</script>
+</head>
+<body>
+  
+        
+        <div class="menu-bar">
+        <ul>
+            <li><a href="#"><i class="fa fa-bars"></i>Menu</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Downloads</a></li>
+                      <li><a href="#">Payments</a></li>
+                        <li><a href="#">Feedback</a></li>
+                        <li><a href="#">Logout</a></li>
+                    </ul>
+                    </div>
+            </li>
+            
+            
+            
+            
+            <li class="active"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+            
+            
+            <li><a href="#">Addmission</a>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li><a href="#">Primary</a></li>
+                        <li><a href="#">Secondary</a></li>
+                        <li><a href="#">Higher Secondary</a></li>
+                    </ul>
+                    </div>
+            </li>
+            
+            
+            
+            <li><a href="#">Examination</a>
+                <div class="sub-menu-3">
+                    <ul>
+                        <li><a href="#">10th</a></li>
+                        <li><a href="#">12th</a></li>
+                        <li><a href="#">others</a></li>
+                    </ul>
+                    </div>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a href="#">Resources</a>
+                <div class="sub-menu-4">
+                    <ul>
+                        <li><a href="#">Books</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">Others</a></li>
+                    </ul>
+                    </div>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            <li><a href="#"> About Us</a>
+                <div class="sub-menu-5">
+                    <ul>
+                        <li><a href="#">Mission</a></li>
+                        <li><a href="#">Vision</a></li>
+                        <li><a href="#">Team</a></li>
+                    </ul>
+                    </div>
+            </li>
+            
+            
+            
+            
+            
+            <li><a href="#"><i class="fa fa-sign-in"></i> Login</a></li>
+        </ul>
+            </div>
+
+</body>
+<html
